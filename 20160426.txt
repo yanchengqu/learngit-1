@@ -1,0 +1,7 @@
+
+git cat-file -p HEAD^:welcome.txt 查看被删除的文件在被删除前的内容(即使已经删除了)。
+
+删除本地缓存 git rm -r --cached .
+
+
+删除远程分区：git push origin :branch-name 
